@@ -1,0 +1,94 @@
+body {
+    background-color: lightcoral;
+    color: lightgreen;
+    font-family: cursive;
+}
+nav{
+    background-color: blueviolet;
+    margin: -8px;
+    border-style: groove;
+    border-color: cadetblue;
+}
+.wave{
+    display: flex;
+}
+.wave-icon {
+    height: 75px;
+}
+#home{
+    display: flex;
+}
+.navbar{
+    display: block;
+    width: 53%;
+}
+.profile-info{
+    display: block;
+    width: 47%;  
+}
+.content-info{
+    font-size: 14px;
+}
+.goto{
+    display: table-cell;
+    width: 33%;
+    float: inline-start;
+    text-decoration: unset;
+    font-size: 26px;
+    font-family: cursive;
+}
+.goto:hover{
+    color: whitesmoke;
+    text-decoration: underline;
+}
+.img-profile{
+    display: inline;
+    width: 98%;
+    height: 98%;
+}
+#aboutme{
+    display: flex;
+    width: 100%;
+}
+.text-about{
+    display: inline;
+}
+.icon{
+    width: 18px;
+    height: 18px;
+}
+a:visited{
+
+    color: rgb(37, 196, 196)
+}
+a{
+
+    color: rgb(37, 196, 196)
+}
+.skill{
+    background-color: blueviolet;
+    width: 60%;
+    margin: 1px;
+    padding: 1px;
+    border-style: groove;
+    border-color: cadetblue;
+    border-radius: 19px;
+}
+.skill-box{
+    margin: 33%;
+}
+#skills{
+    display: flex;
+}
+.html-icon{
+    width: 100px;
+    height: 100px;
+}
+.js-icon{
+    width: 100px;
+    height: 100px;
+}
+.css-icon{
+    width: 100px;
+    height: 100px;
+}
