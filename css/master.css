@@ -1,13 +1,14 @@
 body {
-    background-color: lightcoral;
+    background-color: #5cdb95;
     color: lightgreen;
     font-family: cursive;
 }
 nav{
-    background-color: blueviolet;
+    background-color: #8ee4af;
+    color: #05386b;
     margin: -8px;
     border-style: groove;
-    border-color: cadetblue;
+    border-color: #8ee4af;
 }
 .wave{
     display: flex;
@@ -42,12 +43,14 @@ nav{
     text-decoration: underline;
 }
 .img-profile{
+    border-radius: 35px;
     display: inline;
     width: 98%;
     height: 98%;
 }
 #aboutme{
     display: flex;
+    color: #edf5e1;
     width: 100%;
 }
 .text-about{
@@ -66,7 +69,8 @@ a{
     color: rgb(37, 196, 196)
 }
 .skill{
-    background-color: blueviolet;
+    color: #05386b;
+    background-color: #8ee4af;
     width: 60%;
     margin: 1px;
     padding: 1px;
@@ -74,20 +78,34 @@ a{
     border-color: cadetblue;
     border-radius: 19px;
 }
+.skill-unit{
+    display: flex;
+}
 .skill-box{
-    margin: 33%;
+    margin: 26%;
 }
 #skills{
-    display: flex;
+    display: block;
+    margin: -10px;
 }
 .html-icon{
     width: 100px;
     height: 100px;
 }
+.square-icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
 .js-icon{
+    border-radius: 20px;
     width: 100px;
     height: 100px;
 }
+.breaker{
+    height: 37px;
+}
+
 .css-icon{
     width: 100px;
     height: 100px;
